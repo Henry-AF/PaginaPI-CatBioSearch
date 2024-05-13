@@ -1,0 +1,100 @@
+.tool-choose{
+    margin-top: 50px;
+}
+
+.escritas{
+    padding-left: 50px;
+}
+.escritas h2{
+    color: #FFBF1B;
+}
+.card-section{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 200px 400px;
+    margin-bottom: 30px;
+}
+
+.card-section-2{
+    display: grid;
+    grid-template-columns: 200px 400px;
+}
+
+.card-1{
+    width: 25rem;
+    height: 12.5rem;
+    background-color: #F5F4F4;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-1 h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+.card-1 p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.card-2{
+    width: 25rem;
+    height: 12.5rem;
+    background-color: #F5F4F4;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 13.5rem;
+}
+.card-2 h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+.card-2 p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-3{
+    margin-top: 20px;
+    width: 25rem;
+    height: 12.5rem;
+    background-color: #F5F4F4;
+    padding: 20px;
+    border-radius: 20px;
+}
+.card-3 h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+.card-3 p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card-4{
+    margin-top: 20px;
+    width: 25rem;
+    margin-left: 13.5rem;
+    height: 12.5rem;
+    background-color: #F5F4F4;
+    padding: 20px;
+    border-radius: 20px;
+}
+.card-4 h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+.card-4 p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tool-choose .quadrado-dec{
+    width: 100%;
+    height: auto;
+    position:fixed;
+    right: -800px;
+    top: -5rem;
+    z-index: -1;
+}
+

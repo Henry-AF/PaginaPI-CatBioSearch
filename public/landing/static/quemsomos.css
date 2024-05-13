@@ -1,0 +1,65 @@
+.quemsomos{
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+}
+
+.quemsomos h3{
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 30px;
+    color: #FFC100;
+}
+
+.luiz{
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.luiz img{
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.text-resume{
+    margin-left: 30px;
+}
+
+.title-p{
+    font-weight: 500;
+}
+
+.text-resume{
+    width: 40%;
+}
+
+.henry .text-resume{
+    text-align: end;
+}
+
+.henry{
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.henry img{
+    width: 40%;
+    height: auto;
+    margin-left: 7%;
+}
+
+.matheus{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.matheus img{
+    width: 40%;
+    height: auto;
+    margin-left: 3%;
+}

@@ -1,0 +1,39 @@
+.cta-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px;
+    overflow: hidden;
+    padding-bottom: 150px;
+}
+
+.text-cta h3{
+    color: #FFBF1B;
+    margin-bottom: 30px;
+}
+
+.text-p{
+    display: inline-flex;
+    padding: 0 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.text-p img{
+    position: absolute;
+    top:10px;
+    left: -10px;
+}
+
+.img-cta img{
+    width: 500px;
+    height: auto;
+
+}
+
+.btn-preto-sb{
+    margin-top: 10px;
+}

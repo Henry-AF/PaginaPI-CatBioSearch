@@ -1,0 +1,109 @@
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+}
+
+.items{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 10%;
+    width: 250px;
+    margin-top: 5rem;
+}
+.items p{
+    color: #FFBF1B;
+    display: flex;
+    justify-content: center;
+}
+
+.ft ul{
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 15px;
+    display: flex;
+}
+.ft ul li{
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.ft ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.ft ul li a:hover{
+    color: #FFBF1B;
+    text-decoration: none;
+}
+
+.social-media{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+}    
+
+.social-media a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.social-media .face img{
+    width: 10px;
+    height: auto;
+    justify-content: center;
+}
+.social-media .ttw img{
+    width: 14px;
+    height: auto;
+    justify-content: center;
+}
+.social-media .inst img{
+    width: 15px;
+    height: auto;
+    justify-content: center;
+}
+
+.social-media .face:hover{
+    background-color: #325FFF;
+}
+.social-media .ttw:hover{
+    background-color: #5800B0;
+}
+.social-media .inst:hover{
+    background-color: #DA0E3F;
+}
+
+.line{
+    margin-top: 10%;
+    width: 80%;
+    height: 1px;
+    margin-left: 100px;
+    background-color: #FFFFFF;
+}
+
+.information{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+.information p{
+    margin-right: 20px;
+    margin-top: 2px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 10px;
+}
