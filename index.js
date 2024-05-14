@@ -10,8 +10,10 @@ app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
 app.use('/landing',LadingPageController);
+app.use('/',LadingPageController);
+app.use('/login',LadingPageController);
 
-app.listen(3000, (error) => {
+app.listen(4000, (error) => {
     if(error){
         console.log("Erro")
     }
