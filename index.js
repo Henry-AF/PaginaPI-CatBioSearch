@@ -23,7 +23,7 @@ app.use('/landing', LandingPageController);
 app.use('/', LandingPageController);
 app.use('/login', LandingPageController);
 
-app.listen(4000, (error) => {
+app.listen(5000, (error) => {
     if (error) {
         console.log("Erro ao iniciar o servidor", error);
     } else {

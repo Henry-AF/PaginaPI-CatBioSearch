@@ -24,7 +24,7 @@
             <h2>Entrar na minha conta</h2>
             
             <div class="text-p">
-                <p>Bem vindo de volta!<br>Selecione um método para acessar sua conta</p> 
+                <p>Bem vindo de volta!<br>
             </div>
 
             <div class="social-side">
@@ -36,26 +36,30 @@
                 </div>
             </div>
 
+
             <div class="label">
-                <label for="" >
-                    <div class="email1">
-                        <input class="email" type="email" placeholder="Email">
+                <form action="/authenticate" method="POST">
+                    <label>
+                        <div class="email1">
+                            <input class="email" type="email" placeholder="Email">
+                        </div>
+                            
+                        <div class="senha1">
+                            <input class="senha" type="password" placeholder="Senha">
+                        </div>
+                            
+                    </label>
+
+                    <div class="senha__">
+                        <input type="checkbox"><p class="checkbox">lembrar senha</p>
+                        <p class="link"><a href="">Esqueci a senha</a></p>
                     </div>
-                        
-                    <div class="senha1">
-                        <input class="senha" type="password" placeholder="Senha">
-                    </div>
-                        
-                    
-                </label>
+        
+                    <button class="btn" type="submit">Entrar</button>
+                </form>
             </div>
 
-            <div class="senha__">
-                <input type="checkbox"><p class="checkbox">lembrar senha</p>
-                <p class="link"><a href="">Esqueci a senha</a></p>
-            </div>
-
-            <a href="" class="btn"><button>Entrar</button></a>
+            
 
             <div class="create-account">
                 <p>Não tem uma conta?</p> <p class="link"><a href="/cadastro">Criar conta</a></p>

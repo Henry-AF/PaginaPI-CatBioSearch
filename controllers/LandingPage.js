@@ -1,7 +1,18 @@
 import { Router } from "express";
 import bcrypt from 'bcrypt'
+import express from 'express'
+const app = express() 
 import userService from '../services/UserServices.js'
 const router = Router()
+import session from "express-session"
+
+
+app.use(session({
+    secret: "lojasecret",
+    cookie: {maxAge: 36000000},
+    saveUninitialized: false,
+    resave: false
+}))
 
 router.get('/', (req,res)=>{
     res.render('landing/home')
@@ -9,6 +20,32 @@ router.get('/', (req,res)=>{
 
 router.get('/cadastro', (req, res) => {
     res.render('cadastro/cadastro')
+})
+
+
+//ROTA DE AUTENTICAÇÃO
+router.post("/authenticate", (req,res) => {
+    const email = req.body.email
+    const password = req.body.password
+    //BUSCA O USUARIO NO BANCO
+    userService.SelectOne(email).then(user => {
+        //SE O USUARIO EXISTIR
+        if (user != undefined){
+            //VALIDAR SENHA
+            const correct = bcrypt.compareSync(password, user.password)
+
+
+            //SE A SENHA FOR VÁLIDA
+            if (correct){
+                //AUTORIZAR O LOGIN 
+                req.session.user = {
+                    id : user._id,
+                    email : user.email
+                }
+                res.send(`Usuário logado: <br> ID: ${req.session.user['id']} <br> E-mail: ${req.session.user['email']}`)
+            }
+        }
+    })
 })
 
 router.post("/createUser", (req, res) => {
