@@ -49,47 +49,7 @@
 .text-p .link a{
     margin-left: 10px;
 }
-.nome{
-    padding: 12px 10rem;
-    margin-bottom: 10px;
-    background-image: url(../img/octicon_people-16.svg);
-    background-size: 1.3em;
-    background-repeat: no-repeat;
-    background-position: 15px 13px;
-    padding-left: 3.3em;
-    background-color: #F4F4F4;
-    border: none;
-    border-radius: 5px;
-    color:  #999999;
-}
 
-.email{
-    padding: 12px 10rem;
-    background:url(../img/mdi_email-outline.svg);
-    background-repeat: no-repeat;
-    background-size: 1.3em;
-    background-position: 15px 13px;
-    padding-left: 3.3em;
-    margin-bottom: 10px;
-    background-color: #F4F4F4;
-    border: none;
-    border-radius: 5px;
-    color:  #999999;
-}
-
-.senha{
-    padding: 12px 10rem;
-    background:url(../img/mdi_password-outline.svg);
-    margin-bottom: 10px;
-    background-color: #F4F4F4;
-    border: none;
-    background-position: 15px 13px;
-    background-size: 1.3em;
-    padding-left: 3.3em;
-    border-radius: 5px;
-    color:  #999999;
-    background-repeat: no-repeat;
-}
 
 .area2{
     display: flex;
