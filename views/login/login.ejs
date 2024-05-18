@@ -41,15 +41,15 @@
                 <form action="/authenticate" method="POST">
                     <label>
                         <div class="email1">
-                            <input class="email" type="email" placeholder="Email">
+                            <input class="email" type="email" placeholder="Email" name="email">
                         </div>
-                            
                         <div class="senha1">
-                            <input class="senha" type="password" placeholder="Senha">
+                            <input type="password" class="senha-input" name="password" placeholder="Digite sua senha" required>
                         </div>
-                            
                     </label>
-
+                    <button type="submit">Enviar</button>
+                </form>
+                
                     <div class="senha__">
                         <input type="checkbox"><p class="checkbox">lembrar senha</p>
                         <p class="link"><a href="">Esqueci a senha</a></p>

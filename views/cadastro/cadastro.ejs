@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro | CatBioSearch</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/login.css">
 </head>
+
 <body>
-    
+
     <section class="cadastro">
 
         <div class="area1">
             <h2>Crie a sua conta</h2>
-            
+
             <div class="text-p">
-                <p>Já possui uma conta?</p> 
+                <p>Já possui uma conta?</p>
                 <p class="link"><a href="/login">Entrar</a></p>
             </div>
-            
 
-            <div class="label"> 
+
+            <div class="label">
                 <form action="/createUser" method="POST">
                     <label class="nome-label">Nome</label>
                     <input type="text" class="Nome" name="nome" placeholder="Digite seu nome" required><br>
                     <label class="nome-label">Email</label>
-                    <input type="email" class="email-input"  name="email" placeholder="email@exemplo.com" required><br>
-                    <label class="nome-label">Senha</label>
-                    <input type="password" class="senha-input" name="password" placeholder="Digite sua senha" required> <br>
-                    
+                    <input class="email" type="email" name="email" placeholder="Email">
+                    <input class="senha" type="password" name="password" placeholder="Senha">
+                    <br>
                     <div class="senha__">
-                        <input type="checkbox"><p class="checkbox">lembrar senha</p>
+                        <input type="checkbox">
+                        <p class="checkbox">lembrar senha</p>
                         <p class="link"><a href="">Esqueci a senha</a></p>
                     </div>
-                    
                     <button class="btn" type="submit" class="btn btn-primary">Cadastrar</button>
                 </form>
             </div>
@@ -49,4 +52,5 @@
         <div class="bg-dec"></div>
     </section>
 </body>
+
 </html>

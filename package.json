@@ -1,10 +1,16 @@
 {
-  "type": "module",
+  "name": "pagina-pi-catbiosearch",
+  "version": "1.0.0",
+  "description": "Projeto Integrador - CatBioSearch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "ejs": "^3.1.10",
-    "express": "^4.19.2",
-    "express-session": "^1.18.0",
-    "mongoose": "^8.3.4"
-  }
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.12.3"
+  },
+  "type": "module"
 }
