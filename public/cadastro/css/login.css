@@ -131,10 +131,11 @@
 
 .senha__ p{
     width: 100%;
-    font-size: 12px;
+    font-size: 16px;
 }
 .senha__ a{
     margin-left: 20px;
+    font-weight: bold;
 }
 
 
