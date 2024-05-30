@@ -101,7 +101,7 @@
 .tool-choose .quadrado-dec{
     width: 50px;
     height: auto;
-    position:absolute;
+    position:fixed;
     left: 70rem;
     top: -5rem;
     z-index: -1;

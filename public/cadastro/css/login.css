@@ -38,6 +38,7 @@
 }
 .link a{
     color: #FFBF1B;
+    font-size: 16´x;
 }
 
 .text-p{
@@ -127,14 +128,15 @@
 .senha__{
     margin-top: 20px;
     display: flex;
+    width: 20rem;
+    justify-content: space-between;
 }
 
 .senha__ p{
-    width: 100%;
-    font-size: 16px;
+    font-size: 14px;
 }
 .senha__ a{
-    margin-left: 20px;
+    margin-left: 60px;
     font-weight: bold;
 }
 

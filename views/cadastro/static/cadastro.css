@@ -37,7 +37,8 @@
     text-decoration: none;
 }
 .link a{
-    color: #FFBF1B;
+    color: red;
+    font-size: 16px;
 }
 
 .text-p{
@@ -75,14 +76,11 @@
 .senha__{
     margin-top: 20px;
     display: flex;
+    align-items: center;
 }
 
 .senha__ .link a{
     margin-left: 10px;
-}
-
-.senha__ .checkbox{
-    padding-left: 10px;
 }
 
 .area1 .btn button{
