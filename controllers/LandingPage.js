@@ -25,7 +25,7 @@ router.post("/authenticate", (req, res) => {
                     id: user._id,
                     email: user.email
                 };
-                res.redirect("/landing");
+                res.redirect("/");
             } else {
                 res.status(401).send("Senha incorreta. <a href='/login'>Tente novamente</a>");
             }

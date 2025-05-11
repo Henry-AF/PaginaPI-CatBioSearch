@@ -1,3 +1,5 @@
+
+
 .main{
     padding:40px;
     margin-top: 90px;
@@ -22,7 +24,7 @@
 }
 
 .imagem-static img{
-    max-width: 400px;
+    max-width: 120%;
     height: auto;
 }
 .btn-preto-sb{

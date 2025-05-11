@@ -29,6 +29,7 @@ app.use(urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
+
 app.use('/', LandingPageController);
 
 app.listen(5000, (error) => {

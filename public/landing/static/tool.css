@@ -16,94 +16,34 @@
 .escritas h2{
     color: #FFBF1B;
 }
+
+.card-group{
+    padding: 5rem;
+    justify-content: center;
+}
+
 .card-section{
-    padding: 60px;
     display: grid;
-    grid-template-columns: 200px 400px;
-    margin-bottom: 30px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
-.card-section-2{
-    display: grid;
-    grid-template-columns: 200px 400px;
-}
 
-.card-1{
-    width: 25rem;
-    height: 12.5rem;
-    background-color: #dbdbdb;
+.card-1, .card-2, .card-3, .card-4{
+    width: 100%;
+    background-color: #F5F4F4;
     padding: 20px;
     border-radius: 20px;
+    margin-bottom: 1rem;
 }
 
-.card-1 h3{
-    font-size: 15px;
-    font-weight: 700;
+.card-1, .card-2, .card-3, .card-4 h3{
+    font-size: 1.75rem;
+    font-weight: 600;
+
 }
-.card-1 p{
+.card-1, .card-2, .card-3, .card-4 p{
     font-size: 14px;
     font-weight: 300;
-}
-
-
-.card-2{
-    width: 25rem;
-    height: 12.5rem;
-    background-color: #dbdbdb;
-    padding: 20px;
-    border-radius: 20px;
-    margin-left: 13.5rem;
-}
-.card-2 h3{
-    font-size: 15px;
-    font-weight: 700;
-}
-.card-2 p{
-    font-size: 14px;
-    font-weight: 300;
-}
-.card-3{
-    margin-top: 20px;
-    width: 25rem;
-    height: 12.5rem;
-    background-color: #dbdbdb;
-    padding: 20px;
-    border-radius: 20px;
-}
-.card-3 h3{
-    font-size: 15px;
-    font-weight: 700;
-}
-.card-3 p{
-    font-size: 14px;
-    font-weight: 300;
-}
-
-.card-4{
-    margin-top: 20px;
-    width: 25rem;
-    margin-left: 13.5rem;
-    height: 12.5rem;
-    background-color: #dbdbdb;
-    padding: 20px;
-    border-radius: 20px;
-}
-.card-4 h3{
-    font-size: 15px;
-    font-weight: 700;
-}
-.card-4 p{
-    font-size: 14px;
-    font-weight: 300;
-}
-
-
-.tool-choose .quadrado-dec{
-    width: 50px;
-    height: auto;
-    position:fixed;
-    left: 70rem;
-    top: -5rem;
-    z-index: -1;
 }
 
